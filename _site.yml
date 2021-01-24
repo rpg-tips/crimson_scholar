@@ -1,0 +1,26 @@
+name: "rpgtips_github_pages"
+title: "The Crimson Scholar"
+description: |
+  On Solo Roleplaying
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Solo Prewritten Adventures"
+      menu:
+        - text: "Rules"
+          href: warp_rules.html
+        - text: "Module Example"
+          href: night_of_blood.html
+    - text: "Tools"
+      menu:
+        - text: "Resources"
+          href: resources.html
+        - text: "Links"
+          href: interesting_links.html
+    - text: "Actual Plays"
+      menu:
+        - text: "A Red Door"
+          href: red_door_0.html
+output: distill::distill_article
