@@ -2,11 +2,6 @@
 title: "A Red Door, Session 1"
 description: |
   The beginning.
-author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
 date: "2019-11-03"
 output: distill::distill_article
 ---

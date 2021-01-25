@@ -2,11 +2,6 @@
 title: "A Red Door, Session 2"
 description: |
   Weird things galore.
-author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
 date: "2020-09-26"
 output: distill::distill_article
 ---
