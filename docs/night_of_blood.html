@@ -107,7 +107,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["A Night of Blood solo"]},{"type":"character","attributes":{},"value":["Example of the Warp Check rules\n"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output","editor_options"]}},"value":[{"type":"character","attributes":{},"value":["A Night of Blood solo"]},{"type":"character","attributes":{},"value":["Example of the Warp Check rules\n"]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["markdown"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["wrap"]}},"value":[{"type":"character","attributes":{},"value":["sentence"]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2031,6 +2031,327 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    'Germania One', cursive;
+    --mono-font:       'VT323', monospace;
+    --body-font:       'Crimson Text', serif;
+    --navbar-font:     'Crimson Text', serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #800000;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #800000;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+
+  body {
+    background-color: #f1e9da;
+  }
+
+  ul {
+    line-height:105%;
+  {
+  </style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
@@ -2114,6 +2435,7 @@ Actual Plays
 
 <div class="d-article">
 <h1 id="night-of-blood-mythic-style">Night of Blood, Mythic style</h1>
+<p><img src="https://www.drivethrurpg.com/images/54/259967.jpg" /></p>
 <h2 id="introduction">Introduction</h2>
 <p>This is a writeup of an adventure from Warhammer Fantasy Roleplaying Game called <a href="https://www.drivethrurpg.com/product_reviews_info.php?&amp;reviews_id=234021&amp;products_id=259967?affiliate_id=909715">Night of Blood</a> using a mix of <a href="https://www.drivethrurpg.com/product/114903/Fate-Core-System?affiliate_id=909715">Fate Core</a> and <a href="https://en.wikipedia.org/wiki/Legends_of_Anglerre">Legends of Anglerre</a>. It is also a demonstration on how to randomize an adventure using the Mythic Game Master emulator. To understand the mechanics of what I’ll be doing here, please watch the appropriate video on my Youtube channel, <a href="https://www.youtube.com/channel/UCp_qWaHM9O5dz7gMiXpqKnQ">RPGTips</a> or read the <a href="warp_rules.html">rules here</a>. Please note that, since this was the first example I did, the rules were in active development <em>while</em> I played, so they increase in complexity as the scenes unfold.</p>
 <p>When writing the actual adventure:</p>
@@ -2199,7 +2521,10 @@ Actual Plays
 <p><strong>Chaos Factor roll = 8. Scene develops normally.</strong></p>
 <h3 id="story">Story</h3>
 <p>Evard is walking, slowly, keeping a small telekinesis shield over Korbinian to keep the torch lit under the heavy rain. The sides of his bluish violet tunic are soaking wet. All of a sudden, a loud sound blares in the distance.</p>
-<p><img src="img/forest.jpg" /></p>
+<p><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7812d7aa-1178-4c0d-bb17-a1b66955f344/d6ppm0g-8effb565-3930-4b25-b978-c2b1732ce183.jpg/v1/fill/w_1600,h_1200,q_75,strp/dark_forest_by_serjio_c_d6ppm0g-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMjAwIiwicGF0aCI6IlwvZlwvNzgxMmQ3YWEtMTE3OC00YzBkLWJiMTctYTFiNjY5NTVmMzQ0XC9kNnBwbTBnLThlZmZiNTY1LTM5MzAtNGIyNS1iOTc4LWMyYjE3MzJjZTE4My5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.gGWUnXzvxTTx5XbZPWUKGY0kCVp1RAhaxqXVC8EfZcg" /></p>
+<p style="text-align: center;">
+<a href="https://www.deviantart.com/serjio-c/art/Dark-forest-405982384?epik=dj0yJnU9LWJiZUJVeXhhdUpjaWtyUTBaUEZQWkctaElBX0NhYW4mcD0wJm49OFVYLVJ3WV8xdFdnMm4wQ2lDOXNmdyZ0PUFBQUFBR0FQMDhN"><em>Source</em></a>
+</p>
 <blockquote>
 <p>There are no beastmen in Morvaidia, so I should generate something equivalent: <strong>(Description Table) Threateningly Lonely.</strong> Do the characters know what this is? I roll Lore for both of them. 2 for Evard and 1 for Korbinian. Yes, they do.</p>
 </blockquote>
@@ -2252,7 +2577,10 @@ Actual Plays
 <p><strong>CF roll: 4, scene interrupted. By what? I’ll roll an Event Check. NPC Negative (the dombara). Event meaning: Dispute Magic.</strong></p>
 <h3 id="story-1">Story</h3>
 <p>After they have a few steps towards the inn, they freeze, scared: the eight eyes of the dombara’s head, forming a circle around a small protuberance are looking at them from the trees to their left. Korbinian draws his bastard sword swiftly and positions himself between Evard and the monster. Before he has time to do anything else, a sudden flash of red light explodes behind the monster and it emits a horrible screech. It moves its body and a gaping wound, surrounded by dead flesh, can be seen between its hundred small, lateral legs.</p>
-<p><img src="img/dombara.jpg" /></p>
+<p><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/56033c16-ca01-471a-a51d-343feb0df77d/dcclr9j-c9a26189-d7b2-446e-8033-729c258ccbc8.jpg/v1/fill/w_1600,h_1200,q_75,strp/the_serpent_concept_art_by_nigreda_dcclr9j-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMjAwIiwicGF0aCI6IlwvZlwvNTYwMzNjMTYtY2EwMS00NzFhLWE1MWQtMzQzZmViMGRmNzdkXC9kY2NscjlqLWM5YTI2MTg5LWQ3YjItNDQ2ZS04MDMzLTcyOWMyNThjY2JjOC5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LNYqiMQPmojcgJYxsjSi8GFtFTOate0N_8ngrA-RRDA" /></p>
+<p style="text-align: center;">
+<a href="https://www.deviantart.com/nigreda/art/The-Serpent-Concept-Art-746764615"><em>Source</em></a>
+</p>
 <blockquote>
 <p>Now, I could derail the story by generating a very interesting NPC that stays with them or has another storyline, but as I’m interested in playing the adventure, I will generate a basic one that won’t open more fronts.</p>
 <p><strong>Do the characters know the culprit of the explosion? Yes. Who is he? (UNE) Conservative Patriarch.</strong></p>
@@ -2333,7 +2661,7 @@ Actual Plays
 <p>As they enter the room, three men, one dressed as a Road Warden, an extremely obese one and a small, scrawny man, run at them. The Road Warden is carrying a longsword, while the others are using a bar stool and a mop, respectively, as improvised weapons.</p>
 <blockquote>
 <p><em>Initiative: Evard 2, Korbinian -2, Otto 1, Hans 2, Fagor -1. Order: Evard, Hans, Otto, Fagor, Korbinian.</em></p>
-<p>*Evard will try to attack Hans using his Shadow Magic. 1+4=5, versus his Physique, 0+1 = 1. Will the GM use a Fate Point?<strong> </strong>Fate check, 50/50, No**. <em>Success with Style, 4 shifts, that transform into a moderate consequence: “Broken leg”</em>.</p>
+<p>*Evard will try to attack Hans using his Shadow Magic. 1+4=5, versus his Physique, 0+1 = 1. Will the GM use a Fate Point? Fate check, 50/50, No**. <em>Success with Style, 4 shifts, that transform into a moderate consequence: “Broken leg”</em>.</p>
 </blockquote>
 <p>Evard looks at the torches. They should have put them out. He starts chanting, his robes light up with a gray glow on the inscribed runes, and heavy, silky tentacles of shadow magic dislodge from the floor. They tense and shoot, straight and Hans’ right leg as it advances to attack Korbinian. As they encircle it, they start twisting in all directions, and there is a heavy “crack” sound as the bone is fractured from several points at the same time. Hans falls to one side and rests himself over a table, while grunting in pain.</p>
 <blockquote>

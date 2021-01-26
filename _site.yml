@@ -3,6 +3,7 @@ title: "The Crimson Scholar"
 description: |
   On Solo Roleplaying
 output_dir: "docs"
+theme: crimsonscholar.css
 navbar:
   right:
     - text: "Home"

@@ -108,10 +108,10 @@ This mechanic substitutes the chaos factor check when setting the scene with bas
 3. Set the first scene of the adventure using the scene setting mechanics outlined previously.
 4. Play the adventure, using the Warp Check to guide Mythic to introduce surprises without derailing the adventure. There will be moments in which the added story will generate scenes that are not part of the Setpieces. Embrace that! That's Mythic augmenting the story. Just make sure you try to reshape the events towards the next Setpiece.
 
-## Examples
+## Example
 
-- The first one I did, Warhammer Fantasy Roleplaying Game's classic [Night of Blood](https://www.drivethrurpg.com/product/259967/WFRP-Old-World-Adventures--Night-of-Blood?affiliate_id=909715), using three different levels of complexity: using base Mythic, using a loose Warp Check, and using the full set of mechanics outlined here. This should make something clear: use and abuse the rules as you prefer. Change from scene to scene. The story and your fun is the most important thing.
-    + Read my script and the actual play example [here](night_of_blood.html).
+The first one I did, Warhammer Fantasy Roleplaying Game's classic [Night of Blood](https://www.drivethrurpg.com/product/259967/WFRP-Old-World-Adventures--Night-of-Blood?affiliate_id=909715), using three different levels of complexity: using base Mythic, using a loose Warp Check, and using the full set of mechanics outlined here. This should make something clear: use and abuse the rules as you prefer. Change from scene to scene. The story and your fun is the most important thing.
+Read my script and the actual play example [here](night_of_blood.html).
 
 
 
