@@ -1,0 +1,51 @@
+---
+title: "A Primer on Solo Roleplaying"
+description: |
+  Solo Roleplaying 101
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+I'm writing this text as a summary and recollection of everything related to solo roleplaying, mainly motivated by two reasons: 1. the existence of separate communities and styles of play, 2. the absence of a centralized repository of information and the previous reason makes conversations about the hobby hard, specially for newcomers. Thus, this text tries to address both issues.
+
+## What is Solo Roleplaying?
+
+Without getting into a lot of intricacies, solo rolelplaying is, simply, the act of playing a game in which you play a specific role. To make it simpler for most people, it means playing something like Dungeons & Dragons by yourself. On your own. Solo. Indeed, it's an activity that's mostly done with other people. But it's not a totally necessary criteria. Like other activities in life, doing it on your own presents other avenues of enjoyment and different dimensions to explore about it. 
+
+You may have heard that solo roleplaying (sp) is equivalent to writing a novel or lucid dreaming. While it may be true under certain definitions, I'm going to make a clear distinction for most cases: the main difference between those activities and sp is that you're still playing a game. There are still rules that decide what you're allowed to do and how, (often) dice rolls and, like in social roleplaying, the traditional way of playing, you're supposed to play a specific role, embody your character and live adventures as they would.
+
+## Why would I want to play RPGs on my own?
+
+Honestly, for most of the same reasons you would play an RPG with your friends. To immerse yourself in a world in which you can be whatever you want to be, to be the progatonist of amazing stories, to play that amazing new RPG that has those combat rules you like... Of course, you're not going to play for the social interaction or common memories, but playing solo is also going to allow you to achieve other things (that you wouldn't get playing with friends): exploring more personal, deep stories. Drilling down on emotions. Playing characters that wouldn't gel with a group (ever wanted to be a lone wolf? You can be one without being That Player!). You'll still create memories. They will just be your memories. Traveling on your own is still an amazing experience. Playing RPGs on your own is too.
+
+## If you want to start playing in 5 minutes
+
+It's impossible, sorry. But it can be done in a relatively small amount of time. It depends, though, on your starting conditions. Of course, these are just a small fraction of the solo world. 
+
+### I'm a forever GM, I know a specific system from back to back and I just want to be a player for once
+
+Buy and read the [Mythic Game Master Emulator](https://www.drivethrurpg.com/product/20798/Mythic-Game-Master-Emulator) ([video explanation](https://www.youtube.com/watch?v=YTj6KppUkGg)), it's a "plug-in" system you'll use on top of your prefered RPG which will act as your GM. It's (in my opinion) the best all purpose sp product and, specially, its examples of games really show what sp is about. You'll use your RPG as you would for your normal games, while the Mythic GME would be your senses and would develop the story.
+
+If you want to see actual play examples of it in video: [Me, Myself & Die's season 1](https://www.youtube.com/watch?v=I9ag6U3a8eM&list=PLDvunq75UfH_GAUWYcYSGL_vftZG0nzR-) is the gold standard of it.
+
+### I'm a player in some games and I want to explore what this solo thing is about
+
+If you're super familiar with a specific RPG and you want to play those rules solo, look in the previous section. If not, pick up [Ironsworn](https://www.drivethrurpg.com/product/238369/Ironsworn): it's a complete game with PbtA (Powered by the Apocalypse, games following the philosophy of another game, Apocalypse World) genes, it's free and it guides you through a game, giving you a nice menu of options to advance the story, as well as interesting outcomes for them. 
+
+If you want to see actual play examples of it in video: [Me, Myself & Die's season 2](https://www.youtube.com/watch?v=zVxJ3exjfgI&list=PLDvunq75UfH_Z92nrYPUsTO_fTHnLTNaT) is the gold standard of it.
+
+Once you're familiar with playing solo, thinking about interesting consequences and challenges, you can move to the [Mythic Game Master Emulator](https://www.drivethrurpg.com/product/20798/Mythic-Game-Master-Emulator) if you want to taste other solo flavors.
+
+### I've never played an RPG but this solo thing sounds nice!
+
+I'm not going to lie, you're in a difficult position. It can be done, but you're missing a lot of things that are learned when playing traditional RPGs and, specially, GMing games. My advice for you would still be to try [Ironsworn](https://www.drivethrurpg.com/product/238369/Ironsworn), but I expect it to be frustrating and can lead to a lot of confusion. If this happens, turn to the community: most people in the RPG world learn by having a friend that introduces them to it. You're not going to have that luxury. Luckily, though, in recent years there's been a surge in sp popularity, so there are a lot of communities that can help you and solve your doubts. Some of them would be the [Ironsworn discord server](https://discord.gg/ENnf3ZNekX), the [Mythic GME discord server](https://discord.gg/qMqNmNx) or the [Solo_Roleplaying subreddit](https://www.reddit.com/r/Solo_Roleplaying/). Most people are going to be very happy to welcome you and share their experiences with you. You'll have to learn lots of things at the same time, but take it very slowly, one thing at a time, and it will click at some moment. It's worth it, trust me.
+
+In the next issue of this primer, we'll discuss which types of solo roleplaying
+there is, apart from the most popular ones, which are already present here.
+
+*This text is a Work in Progress, in fact, it's the first alpha version, so it will be expanded greatly in the future.*
+
+
+
+
+

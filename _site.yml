@@ -4,11 +4,15 @@ description: |
   On Solo Roleplaying
 output_dir: "docs"
 theme: crimsonscholar.css
+twitter:
+  site: "@rpg_tips"
 navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Solo Prewritten Adventures"
+    - text: "About Solo Roleplaying"
+      href: primer.html
+    - text: 'Premade Adventures'
       menu:
         - text: "Rules"
           href: warp_rules.html
