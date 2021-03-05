@@ -452,11 +452,16 @@ Hans and Fagor die from the added exhaustion and their bodies become a dry husk,
 
 *This scene will use the refined version of my solo modules mechanics. Thus, I will try to use everything on it. This scene outline would be:*
 
-*- Wake up in the rooms.* *- Potentially, be attacked by Fagor.* *- Find the basement in the cellar: its state depends on the time that has passed: either the ceremony is starting, the demon is in the middle of appearing or it has already appeared and killed everyone.*
+- *Wake up in the rooms.* 
+- *Potentially, be attacked by Fagor.*
+- *Find the basement in the cellar: its state depends on the time that has passed: either the ceremony is starting, the demon is in the middle of appearing or it has already appeared and killed everyone.*
 
 *I will only fix the third one, as it's the main event of the module. I will fix the scene itself, but not it's specific elements, which will be warped when they come up. Is there any added plot point? Fate Check, 50/50, Yes. How many? 1 or 2? (50/50) 1. Where will it go? I roll a 4, so it goes at the end. I decide to use the theme "Mystery", as we've already had one combat and we will potentially have another. The plot point is "Someone is where they should not be". Interesting. We'll see. I will now go over each plot point to see if it's warped or not:*
 
-*- Wake up in the rooms: 8, unaltered.* *- Potentially, be attacked by Fagor: 5, warped. I generate a new plot point, randomly: "Cryptic Information From a Known Source". Interesting.* *- Find the basement in the cellar: its state depends on the time that has passed: either the ceremony is starting, the demon is in the middle of appearing or it has already appeared and killed everyone.* *- Someone is where they should not be.*
+- *Wake up in the rooms: 8, unaltered.*
+- *Potentially, be attacked by Fagor: 5, warped. I generate a new plot point, randomly: "Cryptic Information From a Known Source". Interesting.* 
+- *Find the basement in the cellar: its state depends on the time that has passed: either the ceremony is starting, the demon is in the middle of appearing or it has already appeared and killed everyone.* 
+- *Someone is where they should not be.*
 
 #### NPCs
 
